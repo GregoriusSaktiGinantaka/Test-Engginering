@@ -7,8 +7,10 @@ Feature: feature to test register functionality
     And tombol create ditekan
     Then user redirect ke halaman login
     Examples:
-      |email                |sandi        |
-      |                     |             |
-      |gregorius@gmail.com  |             |
-      |                     |12345678     |
-      |gregorius@gmail.com  |12345678     |
+      |email                |sandi          |
+      |                     |               |
+      |gregorius@gmail.com  |               |
+      |                     |12345678       |
+      |gregorius@gmail.com  |12345          |
+      |gregorius@gmail.com  |Sakti123456789 |
+      |gregorius@gmail.com  |12345678       |

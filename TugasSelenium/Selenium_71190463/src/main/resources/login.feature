@@ -7,8 +7,10 @@ Feature: feature to test login functionality
     And tombol login ditekan
     Then user redirect ke halaman utama
     Examples:
-      | username            | password |
-      |                     |          |
-      | gregorius@gmail.com |          |
-      |                     | 12345678 |
-      | gregorius@gmail.com | 12345678 |
+      | username            | password       |
+      |                     |                |
+      | gregorius@gmail.com |                |
+      |                     | 12345678       |
+      | gregorius@gmail.com | 12345          |
+      | gregorius@gmail.com | Sakti123456789 |
+      | gregorius@gmail.com | 12345678       |
